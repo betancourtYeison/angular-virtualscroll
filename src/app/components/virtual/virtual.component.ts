@@ -20,7 +20,7 @@ export class VirtualComponent implements OnInit {
   }
 
   toStart() {
-    this.viewport.scrollToIndex(this.items.length);
+    this.viewport.scrollToIndex(0);
   }
 
   toMiddle() {
